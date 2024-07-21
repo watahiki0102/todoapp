@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.todoapp.TodoAppApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-21T04:24:51" hostname="watahikhunnoAir" time="0.449">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.todoapp.TodoAppApplicationTests" time="0.449"/>
+  <system-out><![CDATA[13:24:48.196 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.todoapp.TodoAppApplicationTests]: TodoAppApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:24:48.261 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.todoapp.TodoAppApplication for test class com.example.todoapp.TodoAppApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-21T13:24:48.502+09:00  INFO 30077 --- [    Test worker] c.e.todoapp.TodoAppApplicationTests      : Starting TodoAppApplicationTests using Java 17.0.11 with PID 30077 (started by watahikishun in /Users/watahikishun/IdeaProjects/todoapp/backend)
+2024-07-21T13:24:48.503+09:00  INFO 30077 --- [    Test worker] c.e.todoapp.TodoAppApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-07-21T13:24:48.974+09:00  INFO 30077 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-21T13:24:49.018+09:00  INFO 30077 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 1 JPA repository interface.
+2024-07-21T13:24:49.309+09:00  INFO 30077 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-21T13:24:49.448+09:00  INFO 30077 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2024-07-21T13:24:49.449+09:00  INFO 30077 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-21T13:24:49.478+09:00  INFO 30077 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-21T13:24:49.509+09:00  INFO 30077 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-07-21T13:24:49.537+09:00  INFO 30077 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-07-21T13:24:49.747+09:00  INFO 30077 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-07-21T13:24:49.778+09:00  WARN 30077 --- [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-07-21T13:24:50.441+09:00  INFO 30077 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-07-21T13:24:50.477+09:00  INFO 30077 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-21T13:24:50.593+09:00  WARN 30077 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-21T13:24:50.993+09:00  INFO 30077 --- [    Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2024-07-21T13:24:51.051+09:00  INFO 30077 --- [    Test worker] c.e.todoapp.TodoAppApplicationTests      : Started TodoAppApplicationTests in 2.69 seconds (process running for 3.502)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
